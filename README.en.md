@@ -7,7 +7,7 @@
 #### A few AI skills and prompts I actually use every day, open-sourced as-is
 
 [![License](https://img.shields.io/badge/License-MIT-3B82F6?style=for-the-badge)](./LICENSE)
-[![Skills](https://img.shields.io/badge/Skills-4-10B981?style=for-the-badge)](#-skills)
+[![Skills](https://img.shields.io/badge/Skills-5-10B981?style=for-the-badge)](#-skills)
 [![Prompts](https://img.shields.io/badge/Prompts-1-F59E0B?style=for-the-badge)](#-prompts)
 [![AgentSkills](https://img.shields.io/badge/AgentSkills-Standard-8B5CF6?style=for-the-badge)](https://agentskills.io)
 
@@ -34,6 +34,7 @@ Each one was running in my own projects long enough to prove it actually saves t
 | 🧹 [**neat-freak**](#-neat-freak) | After a session, run `/neat` to reconcile your project docs, CLAUDE.md, and agent memory with the code | [Article (Chinese)](https://mp.weixin.qq.com/s/tg1wd-iN2gWHWhXdY0faeg) |
 | 🔭 [**hv-analysis**](#-hv-analysis) | Drop a product/company/concept into it and get a 10k–30k word PDF research report | [Article (Chinese)](https://mp.weixin.qq.com/s/Y_uRMYBmdLWUPnz_ac7jWA) |
 | ✍️ [**khazix-writer**](#-khazix-writer) | Makes the agent write long-form Chinese articles in my personal voice | [Article (Chinese)](https://mp.weixin.qq.com/s/AtxGrii_K-nzkwUM9SNhEg) |
+| 🧭 [**X-Flowchart**](#-x-flowchart) | Redesign Mermaid / C4 / flowchart source or rendered diagrams into premium technical infographics | - |
 | 🔥 [**aihot**](#-aihot-ai-hot-news-query) | Lets your agent pull AI HOT's daily report and all AI news from aihot.virxact.com with one Chinese sentence — no API key | [aihot.virxact.com](https://aihot.virxact.com) |
 
 ### Prompts
@@ -163,6 +164,36 @@ You want "good general writing." This skill takes a position. It **refuses** cor
 [![Tessl](https://img.shields.io/badge/Tessl-0.1.1-3B82F6?style=flat-square)](https://tessl.io/registry/khazix-skills/khazix-writer)
 
 → [SKILL.md](./khazix-writer/SKILL.md) · [Article (Chinese)](https://mp.weixin.qq.com/s/AtxGrii_K-nzkwUM9SNhEg)
+
+</td></tr>
+</table>
+
+<table>
+<tr><td>
+
+### 🧭 X-Flowchart
+
+> *"Not a prettier Mermaid chart — a semantic rebuild into a professional infographic."*
+
+Turns Mermaid / C4 / flowchart / sequence / state / ER / timeline source code, or a rendered diagram image, into a high-fidelity professional technical infographic.
+
+It first extracts the semantic structure, then redesigns the information architecture: primary mechanism, primary path, node roles, groups, branches, loops, dependencies, observation lines, and output closure. The goal is not to replicate the source diagram, but to produce a polished graphic suitable for articles, decks, and technical documentation.
+
+**Good for**
+
+- Turning Mermaid flowcharts into premium technical infographics
+- Redesigning system architecture, agent orchestration, deployment flows, state machines, and ER diagrams
+- Reworking ordinary process screenshots into clearer mechanism diagrams
+
+**How to trigger**
+
+```
+Use X-Flowchart to turn this Mermaid code into an infographic
+Redesign this flowchart image as a premium technical infographic
+用 X-Flowchart 把這段 Mermaid 變成資訊圖
+```
+
+→ [SKILL.md](./x-flowchart/SKILL.md)
 
 </td></tr>
 </table>

@@ -1,0 +1,4 @@
+interface:
+  display_name: "X-Flowchart"
+  short_description: "將圖表重構成高質感技術資訊圖"
+  default_prompt: "使用 $x-flowchart，把這段 Mermaid 原始碼或圖表圖片轉成專業技術資訊圖。"

@@ -1,0 +1,113 @@
+# Skill Runtime Duplicate Report - Before Cleanup
+
+## Duplicates within `C:\Users\pigow\.codex\skills`
+- `code-simplicity-reviewer` (2)
+  - `_sync_backup_changed14_20260409_180009\04-Dev-Review__code-simplicity-reviewer\SKILL.md` backup-candidate
+  - `04-Dev-Review\code-simplicity-reviewer\SKILL.md`
+- `find-skills` (2)
+  - `01-Knowledge-System\find-skills\SKILL.md`
+  - `02-Workflow-Ops\agent-instructions\SKILL.md`
+- `imagegen` (2)
+  - `_sync_backup_changed14_20260409_180009\.system__imagegen\SKILL.md` backup-candidate
+  - `.system\imagegen\SKILL.md` system
+- `llm-wiki` (2)
+  - `01-Knowledge-System\llm-wiki_backup_20260409_173507\SKILL.md` backup-candidate
+  - `01-Knowledge-System\llm-wiki\SKILL.md`
+- `note-update` (2)
+  - `note-update.pre-vault-mount.20260427_205150\SKILL.md` backup-candidate
+  - `note-update\SKILL.md`
+- `openai-docs` (2)
+  - `_sync_backup_changed14_20260409_180009\.system__openai-docs\SKILL.md` backup-candidate
+  - `.system\openai-docs\SKILL.md` system
+- `plugin-creator` (2)
+  - `_sync_backup_changed14_20260409_180009\.system__plugin-creator\SKILL.md` backup-candidate
+  - `.system\plugin-creator\SKILL.md` system
+- `skill-creator` (2)
+  - `_sync_backup_changed14_20260409_180009\.system__skill-creator\SKILL.md` backup-candidate
+  - `.system\skill-creator\SKILL.md` system
+- `skill-installer` (2)
+  - `_sync_backup_changed14_20260409_180009\.system__skill-installer\SKILL.md` backup-candidate
+  - `.system\skill-installer\SKILL.md` system
+
+## Duplicates within `C:\Users\pigow\.agents\skills`
+- `docx` (2)
+  - `document-skills\docx\SKILL.md`
+  - `docx\SKILL.md`
+- `latex-posters` (2)
+  - `latex-posters\SKILL.md`
+  - `pptx-posters\SKILL.md`
+- `open-gstack-browser` (2)
+  - `connect-chrome\SKILL.md`
+  - `open-gstack-browser\SKILL.md`
+- `pdf` (2)
+  - `document-skills\pdf\SKILL.md`
+  - `pdf\SKILL.md`
+- `pptx` (2)
+  - `document-skills\pptx\SKILL.md`
+  - `pptx\SKILL.md`
+- `xlsx` (2)
+  - `document-skills\xlsx\SKILL.md`
+  - `xlsx\SKILL.md`
+
+## Names present in both .codex and .agents
+- Count: 60
+- `adaptyv`
+- `autoplan`
+- `benchmark`
+- `benchmark-models`
+- `browse`
+- `canary`
+- `careful`
+- `context-restore`
+- `context-save`
+- `cso`
+- `datamol`
+- `design-consultation`
+- `design-html`
+- `design-review`
+- `design-shotgun`
+- `devex-review`
+- `doc-coauthoring`
+- `document-release`
+- `expand-references`
+- `find-skills`
+- `freeze`
+- `guard`
+- `guizang-ppt-skill`
+- `health`
+- `investigate`
+- `json-canvas`
+- `land-and-deploy`
+- `landing-report`
+- `latex-posters`
+- `learn`
+- `llm-wiki`
+- `make-pdf`
+- `markitdown`
+- `news-update`
+- `note-update`
+- `obsidian-bases`
+- `office-hours`
+- `open-gstack-browser`
+- `pair-agent`
+- `paper-triage`
+- `plan-ceo-review`
+- `plan-design-review`
+- `plan-devex-review`
+- `plan-eng-review`
+- `plan-tune`
+- `qa`
+- `qa-only`
+- `Remotion`
+- `retro`
+- `review`
+- `setup-browser-cookies`
+- `setup-deploy`
+- `setup-gbrain`
+- `ship`
+- `skill-creator`
+- `skill-installer`
+- `trace-citations`
+- `tutor`
+- `tutor-setup`
+- `unfreeze`

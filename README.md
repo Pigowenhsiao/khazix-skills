@@ -7,7 +7,7 @@
 #### 我自己每天在用的一些 AI 技能和 Prompt，都开源在这里
 
 [![License](https://img.shields.io/badge/License-MIT-3B82F6?style=for-the-badge)](./LICENSE)
-[![Skills](https://img.shields.io/badge/Skills-4-10B981?style=for-the-badge)](#-skills)
+[![Skills](https://img.shields.io/badge/Skills-5-10B981?style=for-the-badge)](#-skills)
 [![Prompts](https://img.shields.io/badge/Prompts-1-F59E0B?style=for-the-badge)](#-prompts)
 [![AgentSkills](https://img.shields.io/badge/AgentSkills-Standard-8B5CF6?style=for-the-badge)](https://agentskills.io)
 
@@ -34,6 +34,7 @@
 | 🧹 [**neat-freak（洁癖）**](#-neat-freak洁癖) | 干完活跑一下 `/neat`，自动把你这次改的东西跟项目文档、CLAUDE.md、Agent 记忆全部对齐 | [公众号文章](https://mp.weixin.qq.com/s/tg1wd-iN2gWHWhXdY0faeg) |
 | 🔭 [**hv-analysis（横纵分析法）**](#-hv-analysis横纵分析法) | 想搞懂一个产品/公司/概念是怎么回事，丢给它，给你一份万字 PDF 研究报告 | [公众号文章](https://mp.weixin.qq.com/s/Y_uRMYBmdLWUPnz_ac7jWA) |
 | ✍️ [**khazix-writer（卡兹克写作）**](#-khazix-writer卡兹克写作) | 装上之后，Agent 用我的口吻和节奏写公众号长文 | [公众号文章](https://mp.weixin.qq.com/s/AtxGrii_K-nzkwUM9SNhEg) |
+| 🧭 [**X-Flowchart（圖表資訊圖重構）**](#-x-flowchart圖表資訊圖重構) | 把 Mermaid / C4 / 流程圖原始碼或已算繪圖片，重構成高質感技術資訊圖 | - |
 | 🔥 [**aihot（AI HOT 资讯查询）**](#-aihotai-hot-资讯查询) | 让 Agent 用一句话拿到 aihot.virxact.com 每天的 AI HOT 日报和全部 AI 动态，无需 API Key | [aihot.virxact.com](https://aihot.virxact.com) |
 
 ### Prompts
@@ -161,6 +162,36 @@ sync up          # English
 [![Tessl](https://img.shields.io/badge/Tessl-0.1.1-3B82F6?style=flat-square)](https://tessl.io/registry/khazix-skills/khazix-writer)
 
 → [SKILL.md](./khazix-writer/SKILL.md) · [公众号讲解](https://mp.weixin.qq.com/s/AtxGrii_K-nzkwUM9SNhEg)
+
+</td></tr>
+</table>
+
+<table>
+<tr><td>
+
+### 🧭 X-Flowchart（圖表資訊圖重構）
+
+> *"不是把 Mermaid 畫漂亮一點，而是把結構重新編譯成一張專業資訊圖。"*
+
+把 Mermaid / C4 / Flowchart / Sequence / State / ER / Timeline 原始碼，或已算繪的圖，重構成一張高擬真、高質感、專業級技術資訊圖。
+
+它會先理解語意結構，再重新選擇資訊架構：主機制、主路徑、節點角色、分組、分支、迴圈、依賴、觀察線和輸出收束都會重新設計。目標不是複刻原圖，而是做成一張能直接放進文章、簡報或技術文件裡的資訊圖。
+
+**適合**
+
+- 把 Mermaid 流程圖變成專業技術資訊圖
+- 把系統架構、Agent 編排、部署流程、狀態機、ER 關係圖重構成高品質視覺圖
+- 把一張普通流程截圖重新設計成更清楚的機制圖
+
+**怎麼觸發**
+
+```
+用 X-Flowchart 把這段 Mermaid 變成資訊圖
+把這張流程圖重構成高質感技術資訊圖
+Use X-Flowchart to redesign this sequence diagram
+```
+
+→ [SKILL.md](./x-flowchart/SKILL.md)
 
 </td></tr>
 </table>
