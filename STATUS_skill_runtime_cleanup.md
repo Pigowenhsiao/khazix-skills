@@ -1,6 +1,14 @@
 # STATUS_skill_runtime_cleanup.md
 
 ## 本次變更
+- 2026-05-09：依 Pigo 指示「全部推上去」，將 `khazix-skills` 目前全部本機變更提交並推送。
+  - 先 `fetch origin`，確認本機落後 upstream `origin/main` 1 個 commit。
+  - 使用臨時 stash 保護本機變更，快轉整合 upstream 後套回本機變更，無衝突。
+  - 建立 commit：`9bf3919 chore: sync local skill updates and status reports`。
+  - Upstream `KKKKhazix/khazix-skills.git` 以 HTTPS push 失敗：目前登入身分 `Pigowenhsiao` 無權限。
+  - SSH push 也失敗：`Permission denied (publickey)`。
+  - 新增 fork remote：`pigowenhsiao = https://github.com/Pigowenhsiao/khazix-skills.git`。
+  - 已將 commit 推送到 `Pigowenhsiao/khazix-skills` 的 `main`。
 - 依 Pigo 指示開始清理 Skill runtime 重複項。
 - 保留 `E:\python_Code\Agent` 作為最多內容的 shared canonical repo，本次未修改 Agent repo。
 - 建立清理報表資料夾：`skill-cleanup-reports/`。
@@ -22,6 +30,10 @@
   - 將 `document-skills\docx/pdf/pptx/xlsx` 提升到 `.agents\skills\docx/pdf/pptx/xlsx` 根目錄路徑，保留直接觸發路徑。
 
 ## 驗證結果
+- `khazix-skills` 推送驗證：
+  - `diff --cached --check` 已通過；提交前清理 `skills_duplicates_after_cleanup.md` 檔尾空白行。
+  - `HEAD` 與 `pigowenhsiao/main` 均為 `9bf3919`。
+  - `origin/main` 仍停在 `bab1783`，原因是 upstream repo 對目前登入身分沒有 push 權限。
 - 清理前：
   - `.codex\skills`：152 個 `SKILL.md`
   - `.agents\skills`：227 個 `SKILL.md`
